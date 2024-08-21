@@ -1,0 +1,2459 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Каталог</title>
+</head>
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <button class="burger">
+                        <svg width="30" height="23" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="1.5" x2="30" y2="1.5" stroke="black" stroke-width="3" />
+                            <line y1="11.5" x2="30" y2="11.5" stroke="black" stroke-width="3" />
+                            <line y1="21.5" x2="15" y2="21.5" stroke="black" stroke-width="3" />
+                        </svg>
+                    </button>
+                    <a href="" class="logo">
+                        <!--    <img src="img/logo.svg" alt="">-->
+                        <img src="img/logo-icon.webp" alt="" class="logo__icon">
+                        <img src="img/logo-text.svg" alt="" class="logo__text">
+                    </a>
+
+                    <div class="menu">
+
+                        <button class="menu__close">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.6062 4.3935C31.4639 10.2512 31.4642 19.7485 25.6062 25.6065C19.7485 31.4642 10.2512 31.4642 4.3932 25.6062C-1.46446 19.7482 -1.46446 10.2512 4.39353 4.3935C10.2512 -1.4645 19.7485 -1.4645 25.6062 4.3935ZM19.3229 18.2168L16.1055 14.9998L19.3229 11.7825C20.0509 11.0545 18.9449 9.94884 18.2172 10.6768L14.9999 13.8942L11.7825 10.6768C11.0545 9.94884 9.94887 11.0548 10.6765 11.7825L13.8942 14.9998L10.6769 18.2168C9.94887 18.9448 11.0549 20.0505 11.7829 19.3225L14.9999 16.1055L18.2172 19.3228C18.9449 20.0505 20.0509 18.9448 19.3229 18.2168ZM28.4359 14.9998C28.4359 7.57917 22.4205 1.56383 14.9999 1.56383C7.57953 1.56383 1.56388 7.5795 1.56388 14.9998C1.56388 22.4205 7.5792 28.4358 14.9999 28.4358C22.4202 28.4358 28.4359 22.4202 28.4359 14.9998Z" fill="black" />
+                            </svg>
+                        </button>
+
+
+                        <nav class="nav">
+                            <a href="" class="nav__link"><span>О компании</span></a>
+                            <a href="" class="nav__link"><span>Услуги</span></a>
+                            <a href="" class="nav__link _active"><span>Каталог оборудования</span></a>
+                            <a href="" class="nav__link"><span>Доставка</span></a>
+                            <a href="" class="nav__link"><span>Контакты</span></a>
+                        </nav>
+
+                        <div class="nav-contacts">
+                            <div class="nav-contacts__item">
+                                <div class="text12 gray-text">
+                                    По России <span class="orange-text">бесплатно</span>
+                                </div>
+                                <a href="tel:88005007551" class="text18">
+                                    8 (800) 500-75-51
+                                </a>
+                            </div>
+                            <div class="nav-contacts__item">
+                                <div class="text12 gray-text">
+                                    Москва
+                                </div>
+                                <a href="tel:84952151422" class="text18">
+                                    8 (495) 215-14-22
+                                </a>
+                            </div>
+                        </div>
+
+                        <a href="mailto:info@potepleet.ru" class="email-link">
+                            <span class="text16">info@potepleet.ru</span>
+                        </a>
+                    </div>
+
+                    <button class="call-btn">
+                        <span class="text16">Обратный звонок</span>
+                        <span class="call-btn__rect">
+                <img src="img/phone.svg" alt="">
+            </span>
+                    </button>
+
+                </div>
+            </div>
+
+        </header>
+        <div class="lines">
+            <span class="_line"></span>
+            <span class="_line"></span>
+            <span class="_line"></span>
+            <span class="_line"></span>
+        </div>
+
+        <main class="content">
+
+            <section class="catalog">
+                <div class="container">
+                    <div class="title text48 text24-tablet bold-text">
+                        ОБОРУДОВАНИЕ
+                    </div>
+
+                    <div class="filter">
+                        <div class="filter-item filter-select">
+                            <label class="filter-select__label">
+                                Вид оборудования:
+                            </label>
+                            <div class="filter-select__show">
+                                <input readonly class="filter-select__current" type="text">
+                                <div class="filter-select__btn m-btn m-btn-orange">
+                                    <img src="img/arrow4.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="filter-select__dropdown">
+                                <div class="filter-select__options">
+                                    <div class="filter-select__option">
+                                        <input checked data-value="Нагревательные кабели" type="radio" name="view">
+                                        <label>Нагревательные кабели</label>
+                                    </div>
+                                    <div class="filter-select__option">
+                                        <input data-value="Нагревательные кабели 2" type="radio" name="view">
+                                        <label>Нагревательные кабели 2</label>
+                                    </div>
+                                    <div class="filter-select__option">
+                                        <input data-value="Нагревательные кабели 3" type="radio" name="view">
+                                        <label>Нагревательные кабели 3</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filter-item filter-select">
+                            <label class="filter-select__label">
+                                Тип оборудования:
+                            </label>
+                            <div class="filter-select__show">
+                                <input readonly class="filter-select__current" type="text">
+                                <div class="filter-select__btn m-btn m-btn-orange">
+                                    <img src="img/arrow4.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="filter-select__dropdown">
+                                <div class="filter-select__options">
+                                    <div class="filter-select__option">
+                                        <input checked data-value="Саморегулирующиеся" type="radio" name="type">
+                                        <label>Саморегулирующиеся</label>
+                                    </div>
+                                    <div class="filter-select__option">
+                                        <input data-value="Саморегулирующиеся 2" type="radio" name="type">
+                                        <label>Саморегулирующиеся 2</label>
+                                    </div>
+                                    <div class="filter-select__option">
+                                        <input data-value="Саморегулирующиеся 3" type="radio" name="type">
+                                        <label>Саморегулирующиеся 3</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filter-item filter-select">
+                            <label class="filter-select__label">
+                                Для обогрева:
+                            </label>
+                            <div class="filter-select__show">
+                                <input readonly class="filter-select__current" type="text">
+                                <div class="filter-select__btn m-btn m-btn-orange">
+                                    <img src="img/arrow4.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="filter-select__dropdown">
+                                <div class="filter-select__options">
+                                    <div class="filter-select__option">
+                                        <input checked data-value="Кровли, водостоков" type="radio" name="destination">
+                                        <label>Кровли, водостоков</label>
+                                    </div>
+                                    <div class="filter-select__option">
+                                        <input data-value="Кровли, водостоков 2" type="radio" name="destination">
+                                        <label>Кровли, водостоков 2</label>
+                                    </div>
+                                    <div class="filter-select__option">
+                                        <input data-value="Кровли, водостоков 3" type="radio" name="destination">
+                                        <label>Кровли, водостоков 3</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="catalog-content">
+                        <div class="text30 text24-tablet bold-text">
+                            Нагревательные кабели
+                        </div>
+                        <div class="catalog-slider slider">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="catalog-card" data-modal="productModal">
+                                            <div class="catalog-card__img">
+                                                <img src="img/catalog.jpg" alt="">
+                                            </div>
+                                            <div class="catalog-card__title text18 bold-text">
+                                                YCPro 30ASH2-CR
+                                            </div>
+                                            <div class="catalog-card__desc">
+                                                Для обогрева кровли, трубопроводов и резервуаров
+                                            </div>
+                                            <button class="catalog-card__btn m-btn m-btn-orange">
+                                                <span>Подробнее</span>
+                                                <img src="img/arrow.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="catalog-card" data-modal="productModal2">
+                                            <div class="catalog-card__img">
+                                                <img src="img/catalog.jpg" alt="">
+                                            </div>
+                                            <div class="catalog-card__title text18 bold-text">
+                                                YCPro 24ASH2-CR
+                                            </div>
+                                            <div class="catalog-card__desc">
+                                                Для обогрева кровли, трубопроводов и резервуаров
+                                            </div>
+                                            <button class="catalog-card__btn m-btn m-btn-orange">
+                                                <span>Подробнее</span>
+                                                <img src="img/arrow.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="catalog-card" data-modal="productModal3">
+                                            <div class="catalog-card__img">
+                                                <img src="img/catalog.jpg" alt="">
+                                            </div>
+                                            <div class="catalog-card__title text18 bold-text">
+                                                YCPro 16ASH2-CR
+                                            </div>
+                                            <div class="catalog-card__desc">
+                                                Для обогрева кровли, трубопроводов и резервуаров
+                                            </div>
+                                            <button class="catalog-card__btn m-btn m-btn-orange">
+                                                <span>Подробнее</span>
+                                                <img src="img/arrow.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="catalog-card" data-modal="productModal4">
+                                            <div class="catalog-card__img">
+                                                <img src="img/catalog.jpg" alt="">
+                                            </div>
+                                            <div class="catalog-card__title text18 bold-text">
+                                                DEVI iceguard 18
+                                            </div>
+                                            <div class="catalog-card__desc">
+                                                Для обогрева кровли, трубопроводов и резервуаров
+                                            </div>
+                                            <button class="catalog-card__btn m-btn m-btn-orange">
+                                                <span>Подробнее</span>
+                                                <img src="img/arrow.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="catalog-card" data-modal="productModal5">
+                                            <div class="catalog-card__img">
+                                                <img src="img/catalog2.jpg" alt="">
+                                            </div>
+                                            <div class="catalog-card__title text18 bold-text">
+                                                YCPro 16ASH2
+                                            </div>
+                                            <div class="catalog-card__desc">
+                                                Для обогрева кровли, трубопроводов и резервуаров
+                                            </div>
+                                            <button class="catalog-card__btn m-btn m-btn-orange">
+                                                <span>Подробнее</span>
+                                                <img src="img/arrow.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="catalog-card" data-modal="productModal6">
+                                            <div class="catalog-card__img">
+                                                <img src="img/catalog3.jpg" alt="">
+                                            </div>
+                                            <div class="catalog-card__title text18 bold-text">
+                                                Raychem GM-2X
+                                            </div>
+                                            <div class="catalog-card__desc">
+                                                Для обогрева кровли, трубопроводов и резервуаров
+                                            </div>
+                                            <button class="catalog-card__btn m-btn m-btn-orange">
+                                                <span>Подробнее</span>
+                                                <img src="img/arrow.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="catalog-card" data-modal="productModal7">
+                                            <div class="catalog-card__img">
+                                                <img src="img/catalog3.jpg" alt="">
+                                            </div>
+                                            <div class="catalog-card__title text18 bold-text">
+                                                Raychem GM-2X
+                                            </div>
+                                            <div class="catalog-card__desc">
+                                                Для обогрева кровли, трубопроводов и резервуаров
+                                            </div>
+                                            <button class="catalog-card__btn m-btn m-btn-orange">
+                                                <span>Подробнее</span>
+                                                <img src="img/arrow.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-nav">
+                                <div class="swiper-button swiper-button-prev">
+                                    <svg width="87" height="17" viewBox="0 0 87 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.49729 16.9404L11.0218 14.4008L6.92855 10.2834H56.7705V6.69182H6.92855L11.0218 2.57423L8.49729 0.0346489L0.0939941 8.4876L8.49729 16.9404Z" fill="#BABABA" />
+                                        <path d="M87 10.2959H50.8194V6.70435H87V10.2959Z" fill="#BABABA" />
+                                    </svg>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button swiper-button-next">
+                                    <svg width="87" height="17" viewBox="0 0 87 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M78.5027 16.9404L75.9782 14.4008L80.0714 10.2834H30.2295V6.69182H80.0714L75.9782 2.57423L78.5027 0.0346489L86.906 8.4876L78.5027 16.9404Z" fill="#BABABA" />
+                                        <path d="M0 10.2959H36.1806V6.70435H0V10.2959Z" fill="#BABABA" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="modal catalog-modal" id="productModal">
+                <div class="modal__bg _close-modal"></div>
+                <div class="modal__dialog">
+                    <button class="modal__close _close-modal">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.9699 7.03009C50.3422 16.4024 50.3427 31.5981 40.9699 40.9709C31.5977 50.3432 16.4019 50.3432 7.02912 40.9704C-2.34313 31.5976 -2.34313 16.4024 7.02966 7.03009C16.4019 -2.34271 31.5977 -2.34271 40.9699 7.03009ZM30.9166 29.1474L25.7689 24.0002L30.9166 18.8525C32.0814 17.6877 30.3118 15.9186 29.1475 17.0834L23.9998 22.2312L18.8521 17.0834C17.6873 15.9186 15.9182 17.6882 17.0825 18.8525L22.2307 24.0002L17.083 29.1474C15.9182 30.3122 17.6878 32.0813 18.8526 30.9165L23.9998 25.7693L29.1475 30.917C30.3118 32.0813 32.0814 30.3122 30.9166 29.1474ZM45.4974 24.0002C45.4974 12.1272 35.8729 2.50262 23.9998 2.50262C12.1273 2.50262 2.5022 12.1277 2.5022 24.0002C2.5022 35.8733 12.1267 45.4978 23.9998 45.4978C35.8723 45.4978 45.4974 35.8728 45.4974 24.0002Z" fill="white" />
+                        </svg>
+                    </button>
+                    <div class="catalog-modal__top">
+                        <div class="text30 text24-tablet bold-text">
+                            Саморегулирующийся YCPro 30ASH2-CR
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <div class="product-info__desc regular-text">
+                                    Предназначен для защиты от замерзания или поддержания требуемой температуры трубопроводов и ёмкостей, а также решения различных задач по электрообогреву в агрессивных средах.
+                                </div>
+                                <div class="product-count">
+                                    <div class="product-count__title text18">Количество:</div>
+                                    <div class="fg">
+                                        <input type="number" value="100">
+                                    </div>
+                                    <div class="product-count__measure text18">
+                                        м
+                                    </div>
+                                </div>
+                                <div class="product-info__nav">
+                                    <button class="product-info__btn m-btn m-btn-orange">
+                                        <span class="product-info__btn-num">340 ₽</span>
+                                        <span class="product-info__btn-title"> за метр</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Обозначения
+                                </div>
+                                <img src="img/scheme.svg" alt="" class="product-info__scheme">
+                            </div>
+                        </div>
+
+                        <div class="product-info product-info2">
+                            <div class="product-info__col">
+                                <div class="construction">
+                                    <div class="product-info__title">
+                                        Конструкция и материал
+                                    </div>
+                                    <div class="construction__wrap">
+                                        <div class="construction__img">
+                                            <img src="img/construction.png" alt="">
+                                        </div>
+                                        <div class="construction__items">
+                                            <div class="construction__item">
+                                                Токопроводящая жила <br>
+                                    Nickel / Tinned copper
+                                            </div>
+                                            <div class="construction__item">
+                                                Нагревательная матрица
+                                                Semi-Electronic compounding
+                                            </div>
+                                            <div class="construction__item">
+                                                Оболочка <br>
+                                    Термопластик
+                                            </div>
+                                            <div class="construction__item">
+                                                Экранирующая оплётка <br>
+                                    Луженый слой
+                                            </div>
+                                            <div class="construction__item">
+                                                Внешняя оболочка <br>
+                                    Термопластик
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Особенности и преимущества
+                                </div>
+                                <ul class="m-list">
+                                    <li>Для обогрева кровли и водостоков,</li>
+                                    <li>Автоматическое регулирование тепловыделения,</li>
+                                    <li>Не боится перегрева и самопересечения,</li>
+                                    <li>Отрезается любой длинны без потери мощности тепловыделения,</li>
+                                    <li>Профессиональная серия YC PRO нагревательных кабелей, от Young Cheng Silicone ведущего производителя в Южной Корее,</li>
+                                    <li>Сертификат взрывозащиты (Ex),</li>
+                                    <li>Устойчив к воздействию ультрафиолета,</li>
+                                    <li>Простая и быстрая установка, не требующая специальных знаний и инструментов,</li>
+                                    <li>Гарантия 5 лет.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="props">
+                        <div class="product-info__title">
+                            Характеристики
+                        </div>
+                        <div class="props__items">
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Мощность тепловыделения при 10°C (Вт/м)
+                                </div>
+                                <div class="prop-item__desc">
+                                    16
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальное сопротивление защитной оплетки
+                                </div>
+                                <div class="prop-item__desc">
+                                    18,2 Ом/км
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальная температура нагрева
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Температурная группа
+                                </div>
+                                <div class="prop-item__desc">
+                                    T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимально допустимая температура без нагрузки
+                                </div>
+                                <div class="prop-item__desc">
+                                    85°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Маркировка взрывозащиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    2 Ex e IIA, IIB, IIC T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Минимальная температура монтажа
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Степень защиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    IP66
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Электропитание
+                                </div>
+                                <div class="prop-item__desc">
+                                    220–240В (110–120В под заказ)
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Упаковка
+                                </div>
+                                <div class="prop-item__desc">
+                                    250м/400м (Катушка), 100м (Рулон)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lines">
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="temperature">
+                        <div class="product-info__title">
+                            Температурный график, длина секций и габариты
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <img src="img/temperature.png" alt="" class="temperature__chart">
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="temperature__title text18 bold-text">
+                                    Максимальная длина секции 16ASH-CX в метрах
+                                </div>
+                                <div class="temperature-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th><span></span></th>
+                                                <th><span>−20°C</span></th>
+                                                <th><span>0°C</span></th>
+                                                <th><span>10°C</span></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span>10A</span></td>
+                                                <td><span class="gray-text">23</span></td>
+                                                <td><span class="gray-text">30</span></td>
+                                                <td><span class="gray-text">41</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>16A</span></td>
+                                                <td><span class="gray-text">35</span></td>
+                                                <td><span class="gray-text">48</span></td>
+                                                <td><span class="gray-text">66</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>20A</span></td>
+                                                <td><span class="gray-text">45</span></td>
+                                                <td><span class="gray-text">59</span></td>
+                                                <td><span class="gray-text">82</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>25A</span></td>
+                                                <td><span class="gray-text">57</span></td>
+                                                <td><span class="gray-text">75</span></td>
+                                                <td><span class="gray-text">97</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="temperature__info">
+                                    <strong>Габариты</strong> <br>
+                                    <strong>16ASH2-CX</strong>  9,5 мм x 3,6 мм
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificates">
+                        <div class="product-info__title">
+                            Сертификаты
+                        </div>
+                        <div class="certificates__items">
+                            <div class="certificate-item">
+                                <img src="img/certificate.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="img/certificate2.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lines">
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal catalog-modal" id="productModal2">
+                <div class="modal__bg _close-modal"></div>
+                <div class="modal__dialog">
+                    <button class="modal__close _close-modal">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.9699 7.03009C50.3422 16.4024 50.3427 31.5981 40.9699 40.9709C31.5977 50.3432 16.4019 50.3432 7.02912 40.9704C-2.34313 31.5976 -2.34313 16.4024 7.02966 7.03009C16.4019 -2.34271 31.5977 -2.34271 40.9699 7.03009ZM30.9166 29.1474L25.7689 24.0002L30.9166 18.8525C32.0814 17.6877 30.3118 15.9186 29.1475 17.0834L23.9998 22.2312L18.8521 17.0834C17.6873 15.9186 15.9182 17.6882 17.0825 18.8525L22.2307 24.0002L17.083 29.1474C15.9182 30.3122 17.6878 32.0813 18.8526 30.9165L23.9998 25.7693L29.1475 30.917C30.3118 32.0813 32.0814 30.3122 30.9166 29.1474ZM45.4974 24.0002C45.4974 12.1272 35.8729 2.50262 23.9998 2.50262C12.1273 2.50262 2.5022 12.1277 2.5022 24.0002C2.5022 35.8733 12.1267 45.4978 23.9998 45.4978C35.8723 45.4978 45.4974 35.8728 45.4974 24.0002Z" fill="white" />
+                        </svg>
+                    </button>
+                    <div class="catalog-modal__top">
+                        <div class="text30 text24-tablet bold-text">
+                            Саморегулирующийся YCPro 24ASH2-CR
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <div class="product-info__desc regular-text">
+                                    Предназначен для защиты от замерзания или поддержания требуемой температуры трубопроводов и ёмкостей, а также решения различных задач по электрообогреву в агрессивных средах.
+                                </div>
+                                <div class="product-count">
+                                    <div class="product-count__title text18">Количество:</div>
+                                    <div class="fg">
+                                        <input type="number" value="100">
+                                    </div>
+                                    <div class="product-count__measure text18">
+                                        м
+                                    </div>
+                                </div>
+                                <div class="product-info__nav">
+                                    <button class="product-info__btn m-btn m-btn-orange">
+                                        <span class="product-info__btn-num">340 ₽</span>
+                                        <span class="product-info__btn-title"> за метр</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Обозначения
+                                </div>
+                                <img src="img/scheme.svg" alt="" class="product-info__scheme">
+                            </div>
+                        </div>
+
+                        <div class="product-info product-info2">
+                            <div class="product-info__col">
+                                <div class="construction">
+                                    <div class="product-info__title">
+                                        Конструкция и материал
+                                    </div>
+                                    <div class="construction__wrap">
+                                        <div class="construction__img">
+                                            <img src="img/construction.png" alt="">
+                                        </div>
+                                        <div class="construction__items">
+                                            <div class="construction__item">
+                                                Токопроводящая жила <br>
+                                    Nickel / Tinned copper
+                                            </div>
+                                            <div class="construction__item">
+                                                Нагревательная матрица
+                                                Semi-Electronic compounding
+                                            </div>
+                                            <div class="construction__item">
+                                                Оболочка <br>
+                                    Термопластик
+                                            </div>
+                                            <div class="construction__item">
+                                                Экранирующая оплётка <br>
+                                    Луженый слой
+                                            </div>
+                                            <div class="construction__item">
+                                                Внешняя оболочка <br>
+                                    Термопластик
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Особенности и преимущества
+                                </div>
+                                <ul class="m-list">
+                                    <li>Для обогрева кровли и водостоков,</li>
+                                    <li>Автоматическое регулирование тепловыделения,</li>
+                                    <li>Не боится перегрева и самопересечения,</li>
+                                    <li>Отрезается любой длинны без потери мощности тепловыделения,</li>
+                                    <li>Профессиональная серия YC PRO нагревательных кабелей, от Young Cheng Silicone ведущего производителя в Южной Корее,</li>
+                                    <li>Сертификат взрывозащиты (Ex),</li>
+                                    <li>Устойчив к воздействию ультрафиолета,</li>
+                                    <li>Простая и быстрая установка, не требующая специальных знаний и инструментов,</li>
+                                    <li>Гарантия 5 лет.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="props">
+                        <div class="product-info__title">
+                            Характеристики
+                        </div>
+                        <div class="props__items">
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Мощность тепловыделения при 10°C (Вт/м)
+                                </div>
+                                <div class="prop-item__desc">
+                                    16
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальное сопротивление защитной оплетки
+                                </div>
+                                <div class="prop-item__desc">
+                                    18,2 Ом/км
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальная температура нагрева
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Температурная группа
+                                </div>
+                                <div class="prop-item__desc">
+                                    T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимально допустимая температура без нагрузки
+                                </div>
+                                <div class="prop-item__desc">
+                                    85°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Маркировка взрывозащиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    2 Ex e IIA, IIB, IIC T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Минимальная температура монтажа
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Степень защиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    IP66
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Электропитание
+                                </div>
+                                <div class="prop-item__desc">
+                                    220–240В (110–120В под заказ)
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Упаковка
+                                </div>
+                                <div class="prop-item__desc">
+                                    250м/400м (Катушка), 100м (Рулон)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lines">
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="temperature">
+                        <div class="product-info__title">
+                            Температурный график, длина секций и габариты
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <img src="img/temperature.png" alt="" class="temperature__chart">
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="temperature__title text18 bold-text">
+                                    Максимальная длина секции 16ASH-CX в метрах
+                                </div>
+                                <div class="temperature-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th><span></span></th>
+                                                <th><span>−20°C</span></th>
+                                                <th><span>0°C</span></th>
+                                                <th><span>10°C</span></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span>10A</span></td>
+                                                <td><span class="gray-text">23</span></td>
+                                                <td><span class="gray-text">30</span></td>
+                                                <td><span class="gray-text">41</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>16A</span></td>
+                                                <td><span class="gray-text">35</span></td>
+                                                <td><span class="gray-text">48</span></td>
+                                                <td><span class="gray-text">66</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>20A</span></td>
+                                                <td><span class="gray-text">45</span></td>
+                                                <td><span class="gray-text">59</span></td>
+                                                <td><span class="gray-text">82</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>25A</span></td>
+                                                <td><span class="gray-text">57</span></td>
+                                                <td><span class="gray-text">75</span></td>
+                                                <td><span class="gray-text">97</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="temperature__info">
+                                    <strong>Габариты</strong> <br>
+                                    <strong>16ASH2-CX</strong>  9,5 мм x 3,6 мм
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificates">
+                        <div class="product-info__title">
+                            Сертификаты
+                        </div>
+                        <div class="certificates__items">
+                            <div class="certificate-item">
+                                <img src="img/certificate.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="img/certificate2.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lines">
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal catalog-modal" id="productModal3">
+                <div class="modal__bg _close-modal"></div>
+                <div class="modal__dialog">
+                    <button class="modal__close _close-modal">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.9699 7.03009C50.3422 16.4024 50.3427 31.5981 40.9699 40.9709C31.5977 50.3432 16.4019 50.3432 7.02912 40.9704C-2.34313 31.5976 -2.34313 16.4024 7.02966 7.03009C16.4019 -2.34271 31.5977 -2.34271 40.9699 7.03009ZM30.9166 29.1474L25.7689 24.0002L30.9166 18.8525C32.0814 17.6877 30.3118 15.9186 29.1475 17.0834L23.9998 22.2312L18.8521 17.0834C17.6873 15.9186 15.9182 17.6882 17.0825 18.8525L22.2307 24.0002L17.083 29.1474C15.9182 30.3122 17.6878 32.0813 18.8526 30.9165L23.9998 25.7693L29.1475 30.917C30.3118 32.0813 32.0814 30.3122 30.9166 29.1474ZM45.4974 24.0002C45.4974 12.1272 35.8729 2.50262 23.9998 2.50262C12.1273 2.50262 2.5022 12.1277 2.5022 24.0002C2.5022 35.8733 12.1267 45.4978 23.9998 45.4978C35.8723 45.4978 45.4974 35.8728 45.4974 24.0002Z" fill="white" />
+                        </svg>
+                    </button>
+                    <div class="catalog-modal__top">
+                        <div class="text30 text24-tablet bold-text">
+                            Саморегулирующийся YCPro 16ASH2-CR
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <div class="product-info__desc regular-text">
+                                    Предназначен для защиты от замерзания или поддержания требуемой температуры трубопроводов и ёмкостей, а также решения различных задач по электрообогреву в агрессивных средах.
+                                </div>
+                                <div class="product-count">
+                                    <div class="product-count__title text18">Количество:</div>
+                                    <div class="fg">
+                                        <input type="number" value="100">
+                                    </div>
+                                    <div class="product-count__measure text18">
+                                        м
+                                    </div>
+                                </div>
+                                <div class="product-info__nav">
+                                    <button class="product-info__btn m-btn m-btn-orange">
+                                        <span class="product-info__btn-num">340 ₽</span>
+                                        <span class="product-info__btn-title"> за метр</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Обозначения
+                                </div>
+                                <img src="img/scheme.svg" alt="" class="product-info__scheme">
+                            </div>
+                        </div>
+
+                        <div class="product-info product-info2">
+                            <div class="product-info__col">
+                                <div class="construction">
+                                    <div class="product-info__title">
+                                        Конструкция и материал
+                                    </div>
+                                    <div class="construction__wrap">
+                                        <div class="construction__img">
+                                            <img src="img/construction.png" alt="">
+                                        </div>
+                                        <div class="construction__items">
+                                            <div class="construction__item">
+                                                Токопроводящая жила <br>
+                                    Nickel / Tinned copper
+                                            </div>
+                                            <div class="construction__item">
+                                                Нагревательная матрица
+                                                Semi-Electronic compounding
+                                            </div>
+                                            <div class="construction__item">
+                                                Оболочка <br>
+                                    Термопластик
+                                            </div>
+                                            <div class="construction__item">
+                                                Экранирующая оплётка <br>
+                                    Луженый слой
+                                            </div>
+                                            <div class="construction__item">
+                                                Внешняя оболочка <br>
+                                    Термопластик
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Особенности и преимущества
+                                </div>
+                                <ul class="m-list">
+                                    <li>Для обогрева кровли и водостоков,</li>
+                                    <li>Автоматическое регулирование тепловыделения,</li>
+                                    <li>Не боится перегрева и самопересечения,</li>
+                                    <li>Отрезается любой длинны без потери мощности тепловыделения,</li>
+                                    <li>Профессиональная серия YC PRO нагревательных кабелей, от Young Cheng Silicone ведущего производителя в Южной Корее,</li>
+                                    <li>Сертификат взрывозащиты (Ex),</li>
+                                    <li>Устойчив к воздействию ультрафиолета,</li>
+                                    <li>Простая и быстрая установка, не требующая специальных знаний и инструментов,</li>
+                                    <li>Гарантия 5 лет.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="props">
+                        <div class="product-info__title">
+                            Характеристики
+                        </div>
+                        <div class="props__items">
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Мощность тепловыделения при 10°C (Вт/м)
+                                </div>
+                                <div class="prop-item__desc">
+                                    16
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальное сопротивление защитной оплетки
+                                </div>
+                                <div class="prop-item__desc">
+                                    18,2 Ом/км
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальная температура нагрева
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Температурная группа
+                                </div>
+                                <div class="prop-item__desc">
+                                    T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимально допустимая температура без нагрузки
+                                </div>
+                                <div class="prop-item__desc">
+                                    85°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Маркировка взрывозащиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    2 Ex e IIA, IIB, IIC T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Минимальная температура монтажа
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Степень защиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    IP66
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Электропитание
+                                </div>
+                                <div class="prop-item__desc">
+                                    220–240В (110–120В под заказ)
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Упаковка
+                                </div>
+                                <div class="prop-item__desc">
+                                    250м/400м (Катушка), 100м (Рулон)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lines">
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="temperature">
+                        <div class="product-info__title">
+                            Температурный график, длина секций и габариты
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <img src="img/temperature.png" alt="" class="temperature__chart">
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="temperature__title text18 bold-text">
+                                    Максимальная длина секции 16ASH-CX в метрах
+                                </div>
+                                <div class="temperature-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th><span></span></th>
+                                                <th><span>−20°C</span></th>
+                                                <th><span>0°C</span></th>
+                                                <th><span>10°C</span></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span>10A</span></td>
+                                                <td><span class="gray-text">23</span></td>
+                                                <td><span class="gray-text">30</span></td>
+                                                <td><span class="gray-text">41</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>16A</span></td>
+                                                <td><span class="gray-text">35</span></td>
+                                                <td><span class="gray-text">48</span></td>
+                                                <td><span class="gray-text">66</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>20A</span></td>
+                                                <td><span class="gray-text">45</span></td>
+                                                <td><span class="gray-text">59</span></td>
+                                                <td><span class="gray-text">82</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>25A</span></td>
+                                                <td><span class="gray-text">57</span></td>
+                                                <td><span class="gray-text">75</span></td>
+                                                <td><span class="gray-text">97</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="temperature__info">
+                                    <strong>Габариты</strong> <br>
+                                    <strong>16ASH2-CX</strong>  9,5 мм x 3,6 мм
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificates">
+                        <div class="product-info__title">
+                            Сертификаты
+                        </div>
+                        <div class="certificates__items">
+                            <div class="certificate-item">
+                                <img src="img/certificate.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="img/certificate2.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lines">
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal catalog-modal" id="productModal4">
+                <div class="modal__bg _close-modal"></div>
+                <div class="modal__dialog">
+                    <button class="modal__close _close-modal">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.9699 7.03009C50.3422 16.4024 50.3427 31.5981 40.9699 40.9709C31.5977 50.3432 16.4019 50.3432 7.02912 40.9704C-2.34313 31.5976 -2.34313 16.4024 7.02966 7.03009C16.4019 -2.34271 31.5977 -2.34271 40.9699 7.03009ZM30.9166 29.1474L25.7689 24.0002L30.9166 18.8525C32.0814 17.6877 30.3118 15.9186 29.1475 17.0834L23.9998 22.2312L18.8521 17.0834C17.6873 15.9186 15.9182 17.6882 17.0825 18.8525L22.2307 24.0002L17.083 29.1474C15.9182 30.3122 17.6878 32.0813 18.8526 30.9165L23.9998 25.7693L29.1475 30.917C30.3118 32.0813 32.0814 30.3122 30.9166 29.1474ZM45.4974 24.0002C45.4974 12.1272 35.8729 2.50262 23.9998 2.50262C12.1273 2.50262 2.5022 12.1277 2.5022 24.0002C2.5022 35.8733 12.1267 45.4978 23.9998 45.4978C35.8723 45.4978 45.4974 35.8728 45.4974 24.0002Z" fill="white" />
+                        </svg>
+                    </button>
+                    <div class="catalog-modal__top">
+                        <div class="text30 text24-tablet bold-text">
+                            Саморегулирующийся DEVI iceguard 18
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <div class="product-info__desc regular-text">
+                                    Предназначен для защиты от замерзания или поддержания требуемой температуры трубопроводов и ёмкостей, а также решения различных задач по электрообогреву в агрессивных средах.
+                                </div>
+                                <div class="product-count">
+                                    <div class="product-count__title text18">Количество:</div>
+                                    <div class="fg">
+                                        <input type="number" value="100">
+                                    </div>
+                                    <div class="product-count__measure text18">
+                                        м
+                                    </div>
+                                </div>
+                                <div class="product-info__nav">
+                                    <button class="product-info__btn m-btn m-btn-orange">
+                                        <span class="product-info__btn-num">340 ₽</span>
+                                        <span class="product-info__btn-title"> за метр</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Обозначения
+                                </div>
+                                <img src="img/scheme.svg" alt="" class="product-info__scheme">
+                            </div>
+                        </div>
+
+                        <div class="product-info product-info2">
+                            <div class="product-info__col">
+                                <div class="construction">
+                                    <div class="product-info__title">
+                                        Конструкция и материал
+                                    </div>
+                                    <div class="construction__wrap">
+                                        <div class="construction__img">
+                                            <img src="img/construction.png" alt="">
+                                        </div>
+                                        <div class="construction__items">
+                                            <div class="construction__item">
+                                                Токопроводящая жила <br>
+                                    Nickel / Tinned copper
+                                            </div>
+                                            <div class="construction__item">
+                                                Нагревательная матрица
+                                                Semi-Electronic compounding
+                                            </div>
+                                            <div class="construction__item">
+                                                Оболочка <br>
+                                    Термопластик
+                                            </div>
+                                            <div class="construction__item">
+                                                Экранирующая оплётка <br>
+                                    Луженый слой
+                                            </div>
+                                            <div class="construction__item">
+                                                Внешняя оболочка <br>
+                                    Термопластик
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Особенности и преимущества
+                                </div>
+                                <ul class="m-list">
+                                    <li>Для обогрева кровли и водостоков,</li>
+                                    <li>Автоматическое регулирование тепловыделения,</li>
+                                    <li>Не боится перегрева и самопересечения,</li>
+                                    <li>Отрезается любой длинны без потери мощности тепловыделения,</li>
+                                    <li>Профессиональная серия YC PRO нагревательных кабелей, от Young Cheng Silicone ведущего производителя в Южной Корее,</li>
+                                    <li>Сертификат взрывозащиты (Ex),</li>
+                                    <li>Устойчив к воздействию ультрафиолета,</li>
+                                    <li>Простая и быстрая установка, не требующая специальных знаний и инструментов,</li>
+                                    <li>Гарантия 5 лет.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="props">
+                        <div class="product-info__title">
+                            Характеристики
+                        </div>
+                        <div class="props__items">
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Мощность тепловыделения при 10°C (Вт/м)
+                                </div>
+                                <div class="prop-item__desc">
+                                    16
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальное сопротивление защитной оплетки
+                                </div>
+                                <div class="prop-item__desc">
+                                    18,2 Ом/км
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальная температура нагрева
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Температурная группа
+                                </div>
+                                <div class="prop-item__desc">
+                                    T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимально допустимая температура без нагрузки
+                                </div>
+                                <div class="prop-item__desc">
+                                    85°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Маркировка взрывозащиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    2 Ex e IIA, IIB, IIC T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Минимальная температура монтажа
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Степень защиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    IP66
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Электропитание
+                                </div>
+                                <div class="prop-item__desc">
+                                    220–240В (110–120В под заказ)
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Упаковка
+                                </div>
+                                <div class="prop-item__desc">
+                                    250м/400м (Катушка), 100м (Рулон)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lines">
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="temperature">
+                        <div class="product-info__title">
+                            Температурный график, длина секций и габариты
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <img src="img/temperature.png" alt="" class="temperature__chart">
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="temperature__title text18 bold-text">
+                                    Максимальная длина секции 16ASH-CX в метрах
+                                </div>
+                                <div class="temperature-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th><span></span></th>
+                                                <th><span>−20°C</span></th>
+                                                <th><span>0°C</span></th>
+                                                <th><span>10°C</span></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span>10A</span></td>
+                                                <td><span class="gray-text">23</span></td>
+                                                <td><span class="gray-text">30</span></td>
+                                                <td><span class="gray-text">41</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>16A</span></td>
+                                                <td><span class="gray-text">35</span></td>
+                                                <td><span class="gray-text">48</span></td>
+                                                <td><span class="gray-text">66</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>20A</span></td>
+                                                <td><span class="gray-text">45</span></td>
+                                                <td><span class="gray-text">59</span></td>
+                                                <td><span class="gray-text">82</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>25A</span></td>
+                                                <td><span class="gray-text">57</span></td>
+                                                <td><span class="gray-text">75</span></td>
+                                                <td><span class="gray-text">97</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="temperature__info">
+                                    <strong>Габариты</strong> <br>
+                                    <strong>16ASH2-CX</strong>  9,5 мм x 3,6 мм
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificates">
+                        <div class="product-info__title">
+                            Сертификаты
+                        </div>
+                        <div class="certificates__items">
+                            <div class="certificate-item">
+                                <img src="img/certificate.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="img/certificate2.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lines">
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal catalog-modal" id="productModal5">
+                <div class="modal__bg _close-modal"></div>
+                <div class="modal__dialog">
+                    <button class="modal__close _close-modal">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.9699 7.03009C50.3422 16.4024 50.3427 31.5981 40.9699 40.9709C31.5977 50.3432 16.4019 50.3432 7.02912 40.9704C-2.34313 31.5976 -2.34313 16.4024 7.02966 7.03009C16.4019 -2.34271 31.5977 -2.34271 40.9699 7.03009ZM30.9166 29.1474L25.7689 24.0002L30.9166 18.8525C32.0814 17.6877 30.3118 15.9186 29.1475 17.0834L23.9998 22.2312L18.8521 17.0834C17.6873 15.9186 15.9182 17.6882 17.0825 18.8525L22.2307 24.0002L17.083 29.1474C15.9182 30.3122 17.6878 32.0813 18.8526 30.9165L23.9998 25.7693L29.1475 30.917C30.3118 32.0813 32.0814 30.3122 30.9166 29.1474ZM45.4974 24.0002C45.4974 12.1272 35.8729 2.50262 23.9998 2.50262C12.1273 2.50262 2.5022 12.1277 2.5022 24.0002C2.5022 35.8733 12.1267 45.4978 23.9998 45.4978C35.8723 45.4978 45.4974 35.8728 45.4974 24.0002Z" fill="white" />
+                        </svg>
+                    </button>
+                    <div class="catalog-modal__top">
+                        <div class="text30 text24-tablet bold-text">
+                            Саморегулирующийся YCPro 16ASH2
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <div class="product-info__desc regular-text">
+                                    Предназначен для защиты от замерзания или поддержания требуемой температуры трубопроводов и ёмкостей, а также решения различных задач по электрообогреву в агрессивных средах.
+                                </div>
+                                <div class="product-count">
+                                    <div class="product-count__title text18">Количество:</div>
+                                    <div class="fg">
+                                        <input type="number" value="100">
+                                    </div>
+                                    <div class="product-count__measure text18">
+                                        м
+                                    </div>
+                                </div>
+                                <div class="product-info__nav">
+                                    <button class="product-info__btn m-btn m-btn-orange">
+                                        <span class="product-info__btn-num">340 ₽</span>
+                                        <span class="product-info__btn-title"> за метр</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Обозначения
+                                </div>
+                                <img src="img/scheme.svg" alt="" class="product-info__scheme">
+                            </div>
+                        </div>
+
+                        <div class="product-info product-info2">
+                            <div class="product-info__col">
+                                <div class="construction">
+                                    <div class="product-info__title">
+                                        Конструкция и материал
+                                    </div>
+                                    <div class="construction__wrap">
+                                        <div class="construction__img">
+                                            <img src="img/construction.png" alt="">
+                                        </div>
+                                        <div class="construction__items">
+                                            <div class="construction__item">
+                                                Токопроводящая жила <br>
+                                    Nickel / Tinned copper
+                                            </div>
+                                            <div class="construction__item">
+                                                Нагревательная матрица
+                                                Semi-Electronic compounding
+                                            </div>
+                                            <div class="construction__item">
+                                                Оболочка <br>
+                                    Термопластик
+                                            </div>
+                                            <div class="construction__item">
+                                                Экранирующая оплётка <br>
+                                    Луженый слой
+                                            </div>
+                                            <div class="construction__item">
+                                                Внешняя оболочка <br>
+                                    Термопластик
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Особенности и преимущества
+                                </div>
+                                <ul class="m-list">
+                                    <li>Для обогрева кровли и водостоков,</li>
+                                    <li>Автоматическое регулирование тепловыделения,</li>
+                                    <li>Не боится перегрева и самопересечения,</li>
+                                    <li>Отрезается любой длинны без потери мощности тепловыделения,</li>
+                                    <li>Профессиональная серия YC PRO нагревательных кабелей, от Young Cheng Silicone ведущего производителя в Южной Корее,</li>
+                                    <li>Сертификат взрывозащиты (Ex),</li>
+                                    <li>Устойчив к воздействию ультрафиолета,</li>
+                                    <li>Простая и быстрая установка, не требующая специальных знаний и инструментов,</li>
+                                    <li>Гарантия 5 лет.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="props">
+                        <div class="product-info__title">
+                            Характеристики
+                        </div>
+                        <div class="props__items">
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Мощность тепловыделения при 10°C (Вт/м)
+                                </div>
+                                <div class="prop-item__desc">
+                                    16
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальное сопротивление защитной оплетки
+                                </div>
+                                <div class="prop-item__desc">
+                                    18,2 Ом/км
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальная температура нагрева
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Температурная группа
+                                </div>
+                                <div class="prop-item__desc">
+                                    T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимально допустимая температура без нагрузки
+                                </div>
+                                <div class="prop-item__desc">
+                                    85°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Маркировка взрывозащиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    2 Ex e IIA, IIB, IIC T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Минимальная температура монтажа
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Степень защиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    IP66
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Электропитание
+                                </div>
+                                <div class="prop-item__desc">
+                                    220–240В (110–120В под заказ)
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Упаковка
+                                </div>
+                                <div class="prop-item__desc">
+                                    250м/400м (Катушка), 100м (Рулон)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lines">
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="temperature">
+                        <div class="product-info__title">
+                            Температурный график, длина секций и габариты
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <img src="img/temperature.png" alt="" class="temperature__chart">
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="temperature__title text18 bold-text">
+                                    Максимальная длина секции 16ASH-CX в метрах
+                                </div>
+                                <div class="temperature-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th><span></span></th>
+                                                <th><span>−20°C</span></th>
+                                                <th><span>0°C</span></th>
+                                                <th><span>10°C</span></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span>10A</span></td>
+                                                <td><span class="gray-text">23</span></td>
+                                                <td><span class="gray-text">30</span></td>
+                                                <td><span class="gray-text">41</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>16A</span></td>
+                                                <td><span class="gray-text">35</span></td>
+                                                <td><span class="gray-text">48</span></td>
+                                                <td><span class="gray-text">66</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>20A</span></td>
+                                                <td><span class="gray-text">45</span></td>
+                                                <td><span class="gray-text">59</span></td>
+                                                <td><span class="gray-text">82</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>25A</span></td>
+                                                <td><span class="gray-text">57</span></td>
+                                                <td><span class="gray-text">75</span></td>
+                                                <td><span class="gray-text">97</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="temperature__info">
+                                    <strong>Габариты</strong> <br>
+                                    <strong>16ASH2-CX</strong>  9,5 мм x 3,6 мм
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificates">
+                        <div class="product-info__title">
+                            Сертификаты
+                        </div>
+                        <div class="certificates__items">
+                            <div class="certificate-item">
+                                <img src="img/certificate.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="img/certificate2.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lines">
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal catalog-modal" id="productModal6">
+                <div class="modal__bg _close-modal"></div>
+                <div class="modal__dialog">
+                    <button class="modal__close _close-modal">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.9699 7.03009C50.3422 16.4024 50.3427 31.5981 40.9699 40.9709C31.5977 50.3432 16.4019 50.3432 7.02912 40.9704C-2.34313 31.5976 -2.34313 16.4024 7.02966 7.03009C16.4019 -2.34271 31.5977 -2.34271 40.9699 7.03009ZM30.9166 29.1474L25.7689 24.0002L30.9166 18.8525C32.0814 17.6877 30.3118 15.9186 29.1475 17.0834L23.9998 22.2312L18.8521 17.0834C17.6873 15.9186 15.9182 17.6882 17.0825 18.8525L22.2307 24.0002L17.083 29.1474C15.9182 30.3122 17.6878 32.0813 18.8526 30.9165L23.9998 25.7693L29.1475 30.917C30.3118 32.0813 32.0814 30.3122 30.9166 29.1474ZM45.4974 24.0002C45.4974 12.1272 35.8729 2.50262 23.9998 2.50262C12.1273 2.50262 2.5022 12.1277 2.5022 24.0002C2.5022 35.8733 12.1267 45.4978 23.9998 45.4978C35.8723 45.4978 45.4974 35.8728 45.4974 24.0002Z" fill="white" />
+                        </svg>
+                    </button>
+                    <div class="catalog-modal__top">
+                        <div class="text30 text24-tablet bold-text">
+                            Саморегулирующийся Raychem GM-2X
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <div class="product-info__desc regular-text">
+                                    Предназначен для защиты от замерзания или поддержания требуемой температуры трубопроводов и ёмкостей, а также решения различных задач по электрообогреву в агрессивных средах.
+                                </div>
+                                <div class="product-count">
+                                    <div class="product-count__title text18">Количество:</div>
+                                    <div class="fg">
+                                        <input type="number" value="100">
+                                    </div>
+                                    <div class="product-count__measure text18">
+                                        м
+                                    </div>
+                                </div>
+                                <div class="product-info__nav">
+                                    <button class="product-info__btn m-btn m-btn-orange">
+                                        <span class="product-info__btn-num">340 ₽</span>
+                                        <span class="product-info__btn-title"> за метр</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Обозначения
+                                </div>
+                                <img src="img/scheme.svg" alt="" class="product-info__scheme">
+                            </div>
+                        </div>
+
+                        <div class="product-info product-info2">
+                            <div class="product-info__col">
+                                <div class="construction">
+                                    <div class="product-info__title">
+                                        Конструкция и материал
+                                    </div>
+                                    <div class="construction__wrap">
+                                        <div class="construction__img">
+                                            <img src="img/construction.png" alt="">
+                                        </div>
+                                        <div class="construction__items">
+                                            <div class="construction__item">
+                                                Токопроводящая жила <br>
+                                    Nickel / Tinned copper
+                                            </div>
+                                            <div class="construction__item">
+                                                Нагревательная матрица
+                                                Semi-Electronic compounding
+                                            </div>
+                                            <div class="construction__item">
+                                                Оболочка <br>
+                                    Термопластик
+                                            </div>
+                                            <div class="construction__item">
+                                                Экранирующая оплётка <br>
+                                    Луженый слой
+                                            </div>
+                                            <div class="construction__item">
+                                                Внешняя оболочка <br>
+                                    Термопластик
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Особенности и преимущества
+                                </div>
+                                <ul class="m-list">
+                                    <li>Для обогрева кровли и водостоков,</li>
+                                    <li>Автоматическое регулирование тепловыделения,</li>
+                                    <li>Не боится перегрева и самопересечения,</li>
+                                    <li>Отрезается любой длинны без потери мощности тепловыделения,</li>
+                                    <li>Профессиональная серия YC PRO нагревательных кабелей, от Young Cheng Silicone ведущего производителя в Южной Корее,</li>
+                                    <li>Сертификат взрывозащиты (Ex),</li>
+                                    <li>Устойчив к воздействию ультрафиолета,</li>
+                                    <li>Простая и быстрая установка, не требующая специальных знаний и инструментов,</li>
+                                    <li>Гарантия 5 лет.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="props">
+                        <div class="product-info__title">
+                            Характеристики
+                        </div>
+                        <div class="props__items">
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Мощность тепловыделения при 10°C (Вт/м)
+                                </div>
+                                <div class="prop-item__desc">
+                                    16
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальное сопротивление защитной оплетки
+                                </div>
+                                <div class="prop-item__desc">
+                                    18,2 Ом/км
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальная температура нагрева
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Температурная группа
+                                </div>
+                                <div class="prop-item__desc">
+                                    T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимально допустимая температура без нагрузки
+                                </div>
+                                <div class="prop-item__desc">
+                                    85°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Маркировка взрывозащиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    2 Ex e IIA, IIB, IIC T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Минимальная температура монтажа
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Степень защиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    IP66
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Электропитание
+                                </div>
+                                <div class="prop-item__desc">
+                                    220–240В (110–120В под заказ)
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Упаковка
+                                </div>
+                                <div class="prop-item__desc">
+                                    250м/400м (Катушка), 100м (Рулон)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lines">
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="temperature">
+                        <div class="product-info__title">
+                            Температурный график, длина секций и габариты
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <img src="img/temperature.png" alt="" class="temperature__chart">
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="temperature__title text18 bold-text">
+                                    Максимальная длина секции 16ASH-CX в метрах
+                                </div>
+                                <div class="temperature-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th><span></span></th>
+                                                <th><span>−20°C</span></th>
+                                                <th><span>0°C</span></th>
+                                                <th><span>10°C</span></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span>10A</span></td>
+                                                <td><span class="gray-text">23</span></td>
+                                                <td><span class="gray-text">30</span></td>
+                                                <td><span class="gray-text">41</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>16A</span></td>
+                                                <td><span class="gray-text">35</span></td>
+                                                <td><span class="gray-text">48</span></td>
+                                                <td><span class="gray-text">66</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>20A</span></td>
+                                                <td><span class="gray-text">45</span></td>
+                                                <td><span class="gray-text">59</span></td>
+                                                <td><span class="gray-text">82</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>25A</span></td>
+                                                <td><span class="gray-text">57</span></td>
+                                                <td><span class="gray-text">75</span></td>
+                                                <td><span class="gray-text">97</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="temperature__info">
+                                    <strong>Габариты</strong> <br>
+                                    <strong>16ASH2-CX</strong>  9,5 мм x 3,6 мм
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificates">
+                        <div class="product-info__title">
+                            Сертификаты
+                        </div>
+                        <div class="certificates__items">
+                            <div class="certificate-item">
+                                <img src="img/certificate.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="img/certificate2.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lines">
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal catalog-modal" id="productModal7">
+                <div class="modal__bg _close-modal"></div>
+                <div class="modal__dialog">
+                    <button class="modal__close _close-modal">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.9699 7.03009C50.3422 16.4024 50.3427 31.5981 40.9699 40.9709C31.5977 50.3432 16.4019 50.3432 7.02912 40.9704C-2.34313 31.5976 -2.34313 16.4024 7.02966 7.03009C16.4019 -2.34271 31.5977 -2.34271 40.9699 7.03009ZM30.9166 29.1474L25.7689 24.0002L30.9166 18.8525C32.0814 17.6877 30.3118 15.9186 29.1475 17.0834L23.9998 22.2312L18.8521 17.0834C17.6873 15.9186 15.9182 17.6882 17.0825 18.8525L22.2307 24.0002L17.083 29.1474C15.9182 30.3122 17.6878 32.0813 18.8526 30.9165L23.9998 25.7693L29.1475 30.917C30.3118 32.0813 32.0814 30.3122 30.9166 29.1474ZM45.4974 24.0002C45.4974 12.1272 35.8729 2.50262 23.9998 2.50262C12.1273 2.50262 2.5022 12.1277 2.5022 24.0002C2.5022 35.8733 12.1267 45.4978 23.9998 45.4978C35.8723 45.4978 45.4974 35.8728 45.4974 24.0002Z" fill="white" />
+                        </svg>
+                    </button>
+                    <div class="catalog-modal__top">
+                        <div class="text30 text24-tablet bold-text">
+                            Саморегулирующийся Raychem GM-2X
+                        </div>
+
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <div class="product-info__desc regular-text">
+                                    Предназначен для защиты от замерзания или поддержания требуемой температуры трубопроводов и ёмкостей, а также решения различных задач по электрообогреву в агрессивных средах.
+                                </div>
+                                <div class="product-count">
+                                    <div class="product-count__title text18">Количество:</div>
+                                    <div class="fg">
+                                        <input type="number" value="100">
+                                    </div>
+                                    <div class="product-count__measure text18">
+                                        м
+                                    </div>
+                                </div>
+                                <div class="product-info__nav">
+                                    <button class="product-info__btn m-btn m-btn-orange">
+                                        <span class="product-info__btn-num">340 ₽</span>
+                                        <span class="product-info__btn-title"> за метр</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Обозначения
+                                </div>
+                                <img src="img/scheme.svg" alt="" class="product-info__scheme">
+                            </div>
+                        </div>
+
+                        <div class="product-info product-info2">
+                            <div class="product-info__col">
+                                <div class="construction">
+                                    <div class="product-info__title">
+                                        Конструкция и материал
+                                    </div>
+                                    <div class="construction__wrap">
+                                        <div class="construction__img">
+                                            <img src="img/construction.png" alt="">
+                                        </div>
+                                        <div class="construction__items">
+                                            <div class="construction__item">
+                                                Токопроводящая жила <br>
+                                    Nickel / Tinned copper
+                                            </div>
+                                            <div class="construction__item">
+                                                Нагревательная матрица
+                                                Semi-Electronic compounding
+                                            </div>
+                                            <div class="construction__item">
+                                                Оболочка <br>
+                                    Термопластик
+                                            </div>
+                                            <div class="construction__item">
+                                                Экранирующая оплётка <br>
+                                    Луженый слой
+                                            </div>
+                                            <div class="construction__item">
+                                                Внешняя оболочка <br>
+                                    Термопластик
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="product-info__title">
+                                    Особенности и преимущества
+                                </div>
+                                <ul class="m-list">
+                                    <li>Для обогрева кровли и водостоков,</li>
+                                    <li>Автоматическое регулирование тепловыделения,</li>
+                                    <li>Не боится перегрева и самопересечения,</li>
+                                    <li>Отрезается любой длинны без потери мощности тепловыделения,</li>
+                                    <li>Профессиональная серия YC PRO нагревательных кабелей, от Young Cheng Silicone ведущего производителя в Южной Корее,</li>
+                                    <li>Сертификат взрывозащиты (Ex),</li>
+                                    <li>Устойчив к воздействию ультрафиолета,</li>
+                                    <li>Простая и быстрая установка, не требующая специальных знаний и инструментов,</li>
+                                    <li>Гарантия 5 лет.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="props">
+                        <div class="product-info__title">
+                            Характеристики
+                        </div>
+                        <div class="props__items">
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Мощность тепловыделения при 10°C (Вт/м)
+                                </div>
+                                <div class="prop-item__desc">
+                                    16
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальное сопротивление защитной оплетки
+                                </div>
+                                <div class="prop-item__desc">
+                                    18,2 Ом/км
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимальная температура нагрева
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Температурная группа
+                                </div>
+                                <div class="prop-item__desc">
+                                    T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Максимально допустимая температура без нагрузки
+                                </div>
+                                <div class="prop-item__desc">
+                                    85°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Маркировка взрывозащиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    2 Ex e IIA, IIB, IIC T6
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Минимальная температура монтажа
+                                </div>
+                                <div class="prop-item__desc">
+                                    65°C
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Степень защиты
+                                </div>
+                                <div class="prop-item__desc">
+                                    IP66
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Электропитание
+                                </div>
+                                <div class="prop-item__desc">
+                                    220–240В (110–120В под заказ)
+                                </div>
+                            </div>
+                            <div class="prop-item">
+                                <div class="prop-item__title">
+                                    Упаковка
+                                </div>
+                                <div class="prop-item__desc">
+                                    250м/400м (Катушка), 100м (Рулон)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lines">
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                            <span class="_line"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="temperature">
+                        <div class="product-info__title">
+                            Температурный график, длина секций и габариты
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info__col">
+                                <img src="img/temperature.png" alt="" class="temperature__chart">
+                            </div>
+                            <div class="product-info__col2">
+                                <div class="temperature__title text18 bold-text">
+                                    Максимальная длина секции 16ASH-CX в метрах
+                                </div>
+                                <div class="temperature-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th><span></span></th>
+                                                <th><span>−20°C</span></th>
+                                                <th><span>0°C</span></th>
+                                                <th><span>10°C</span></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span>10A</span></td>
+                                                <td><span class="gray-text">23</span></td>
+                                                <td><span class="gray-text">30</span></td>
+                                                <td><span class="gray-text">41</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>16A</span></td>
+                                                <td><span class="gray-text">35</span></td>
+                                                <td><span class="gray-text">48</span></td>
+                                                <td><span class="gray-text">66</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>20A</span></td>
+                                                <td><span class="gray-text">45</span></td>
+                                                <td><span class="gray-text">59</span></td>
+                                                <td><span class="gray-text">82</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>25A</span></td>
+                                                <td><span class="gray-text">57</span></td>
+                                                <td><span class="gray-text">75</span></td>
+                                                <td><span class="gray-text">97</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="temperature__info">
+                                    <strong>Габариты</strong> <br>
+                                    <strong>16ASH2-CX</strong>  9,5 мм x 3,6 мм
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificates">
+                        <div class="product-info__title">
+                            Сертификаты
+                        </div>
+                        <div class="certificates__items">
+                            <div class="certificate-item">
+                                <img src="img/certificate.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="img/certificate2.png" class="certificate-item__img" alt="">
+                                <div class="certificate-item__title">
+                                    EAC approved: <br>
+                        TR-CU 004
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lines">
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                        <span class="_line"></span>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <section class="help">
+                <div class="lines">
+                    <span class="_line"></span>
+                    <span class="_line"></span>
+                    <span class="_line"></span>
+                    <span class="_line"></span>
+                </div>
+
+                <div class="container">
+                    <div class="help__inner">
+                        <div class="help__content">
+                            <div class="help__top animated">
+                                <div class="title text48 text24-tablet bold-text">
+                                    Поможем выбрать
+                                    <span class="light-text"><span class="orange-text">оптимальное</span> решение</span>
+                                </div>
+                                <div class="title2 text30 text18-tablet light-text">
+                                    и рассчитаем стоимость <span class="orange-text">“под ключ”</span>
+                                </div>
+                            </div>
+                            <div class="help__items animated">
+                                <div class="service-item">
+                                    <div class="service-item__icon">
+                                        <img src="img/service-icon5.svg" alt="">
+                                    </div>
+                                    <div class="service-item__title">
+                                        <div class="text24 text20-tablet">Расчет стоимости  <br> за 24 часа</div>
+                                    </div>
+                                </div>
+
+                                <div class="service-item">
+                                    <div class="service-item__icon">
+                                        <img src="img/service-icon6.svg" alt="">
+                                    </div>
+                                    <div class="service-item__title">
+                                        <div class="text24 text20-tablet">Сертифицированный проект и монтаж</div>
+                                    </div>
+                                </div>
+
+                                <div class="service-item">
+                                    <div class="service-item__icon">
+                                        <img src="img/service-icon7.svg" alt="">
+                                    </div>
+                                    <div class="service-item__title">
+                                        <div class="text24 text20-tablet">Системы любой сложности</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="help__sidebar animated">
+                            <form action="" class="help-form">
+                                <div class="help-form__text">
+                                    <div class="text36 text30-tablet bold-text">Оставьте заявку</div>
+                                    <div class="text24 text18-tablet regular-text">на бесплатную консультацию</div>
+                                </div>
+                                <div class="req__fields">
+                                    <fieldset class="fg _dark">
+                                        <input type="text" placeholder="Ваше имя">
+                                    </fieldset>
+                                    <fieldset class="fg _dark">
+                                        <input type="tel" placeholder="+7 (___) ___-__-__">
+                                    </fieldset>
+                                    <fieldset class="fg _dark _full">
+                                        <textarea placeholder="Сообщение"></textarea>
+                                    </fieldset>
+                                    <div class="req__hint _full">
+                                        <div class="text13 text11-mob">
+                                            Наж имя на кнопку я даю свое согласие на
+                                            <button>обработку персональных данных</button> в соответствии с
+                                            <button>политикой обработки персональных данных</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="help-form__btn m-btn m-btn-orange">
+                                    <span>Отправить</span>
+                                    <img src="img/arrow.svg" alt="">
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a href="" class="logo">
+                        <!--    <img src="img/logo.svg" alt="">-->
+                        <img src="img/logo-icon.webp" alt="" class="logo__icon">
+                        <img src="img/logo-text.svg" alt="" class="logo__text">
+                    </a>
+
+                    <div class="menu">
+
+
+                        <nav class="nav">
+                            <a href="" class="nav__link"><span>О компании</span></a>
+                            <a href="" class="nav__link"><span>Услуги</span></a>
+                            <a href="" class="nav__link _active"><span>Каталог оборудования</span></a>
+                            <a href="" class="nav__link"><span>Доставка</span></a>
+                            <a href="" class="nav__link"><span>Контакты</span></a>
+                        </nav>
+
+                        <div class="nav-contacts">
+                            <div class="nav-contacts__item">
+                                <div class="text12 gray-text">
+                                    По России <span class="orange-text">бесплатно</span>
+                                </div>
+                                <a href="tel:88005007551" class="text18">
+                                    8 (800) 500-75-51
+                                </a>
+                            </div>
+                            <div class="nav-contacts__item">
+                                <div class="text12 gray-text">
+                                    Москва
+                                </div>
+                                <a href="tel:84952151422" class="text18">
+                                    8 (495) 215-14-22
+                                </a>
+                            </div>
+                        </div>
+
+                        <a href="mailto:info@potepleet.ru" class="email-link">
+                            <span class="text16">info@potepleet.ru</span>
+                        </a>
+                    </div>
+
+                    <button class="call-btn">
+                        <span class="text16">Обратный звонок</span>
+                        <span class="call-btn__rect">
+                <img src="img/phone.svg" alt="">
+            </span>
+                    </button>
+
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
